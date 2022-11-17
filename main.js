@@ -9,3 +9,9 @@ nav_menu.addEventListener("click",()=>{
 nav_close.addEventListener("click",()=>{
     mobile_nav.classList.remove("show")
 })
+
+
+/* Copyright year */
+let copyright = document.querySelector(".footer-copyright span")
+copyright.textContent = new Date().getFullYear()
+
